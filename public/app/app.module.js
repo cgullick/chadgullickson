@@ -10,7 +10,7 @@
       // "app.auth",
       "app.index",
       // "app.message",
-      // "app.about",
+      "app.about",
       // "app.contact",
       // "app.work",
       "app.shell"
