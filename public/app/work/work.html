@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <div class="row">
+  	<h3>My Work</h3>
+    <div class="col-sm-12">
+      <table class="striped bordered">
+      	<thead>
+      		<tr>
+      			<th>Repo Name</th>
+      			<th>Description</th>
+      			<th>Language</th>
+      			<th>Demo</th>
+      		</tr>
+      	</thead>
+      	<tr ng-repeat="repo in wc.repos">
+      		<td style="width: 20%">{{repo.name}}</td>
+      		<td style="width: 50%">{{repo.description}}</td>
+      		<td style="width: 10%">{{repo.language}}</td>
+      		<td style="width: 10%">Demo Coming Soon</td>
+      	</tr>
+      </table>
+    </div>
+  </div>
+</div>

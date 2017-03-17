@@ -11,8 +11,8 @@
       "app.index",
       // "app.message",
       "app.about",
-      // "app.contact",
-      // "app.work",
+      "app.contact",
+      "app.work",
       "app.shell"
       
       /* 3rd-party modules */
